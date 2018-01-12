@@ -42,7 +42,7 @@ class App extends React.Component {
     if (e.label === "Required Songwriter") {
       return (
         <div style={style}>
-          <h4>Only songwriter required</h4>
+          <h4>One Songwriter Required</h4>
           <p>
             You must assign the songwriter role to at least one Artist/Creative.
             Please add the songwriter role to another Artist/Creative before removing this one.
@@ -85,37 +85,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-    //if (e.label === "Orange") {
-      //return (
-        //<div className="Select-control">
-          //<span className="Select-multi-value-wrapper" id="react-select-3--value">
-            //<span id="react-select3--value-0" [> the id prop <] className="my-custom-value-component">
-
-            //</span>
-            //<span id="react-select3--value-1" [> the id prop <] className="my-custom-value-component">
-              //// whatever you want
-            //</span>
-            //<div className="Select-input">
-              //// default input code
-            //</div>
-          //</span>
-        //</div>
-      //)
-    //} else {
-      //return this.defaultElement(e);
-    //}
-
-  //defaultElement(element) {
-    //return (
-      //<div className="Select-control">
-        //<span className="Select-multi-value-wrapper" id="react-select-2--value">
-          //<div className="Select-value"><span className="Select-value-icon" aria-hidden="true">×</span>
-            //<span className="Select-value-label" role="option" aria-selected="true" id="react-select-2--value-0">value
-              //<span className="Select-aria-only">&nbsp;</span></span>
-      //</div>
-      //</span>
-      //<span className="Select-clear-zone" title="Clear all" aria-label="Clear all">
-        //<span className="Select-clear">×</span></span><span className="Select-arrow-zone">
-        //<span className="Select-arrow"></span></span></div>)
-  //}
